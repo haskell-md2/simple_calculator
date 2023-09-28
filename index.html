@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="window">
+        <img src="https://images.vexels.com/media/users/3/255358/isolated/lists/d1137e6c2b3fa6bb945e9540189ffaca-funny-calculator-stroke.png" alt="">
+        <div id="table">0</div>
+        <div class="inp">
+            <div class="nums">
+                <div class="row">
+                    <span onclick="onClickNum('1')">1</span>
+                    <span onclick="onClickNum('2')">2</span>
+                    <span onclick="onClickNum('3')">3</span>
+                </div>
+                <div class="row">
+                    <span onclick="onClickNum('4')">4</span>
+                    <span onclick="onClickNum('5')">5</span>
+                    <span onclick="onClickNum('6')">6</span>
+                </div>
+                <div class="row">
+                    <span onclick="onClickNum('7')">7</span>
+                    <span onclick="onClickNum('8')">8</span>
+                    <span onclick="onClickNum('9')">9</span>
+                </div>
+                <div class="row">
+                    <span onclick="onClickNum('0')">0</span>
+                </div>
+            </div>
+            <div class="operations">
+                <div onclick="onClickInp('+')" class="op">+</div>
+                <div onclick="onClickInp('-')" class="op">-</div>
+                <div onclick="onClickInp('*')" class="op">*</div>
+                <div onclick="onClickInp('/')" class="op">/</div>
+            </div>
+        </div>
+        <button onclick="result()">Получить результат</button>
+        </br>
+        
+        <p style="font-size: 20px; margin-top: 35px;">Исходный код  <a href="https://github.com/AceLewis/my_first_calculator.py/blob/master/my_first_calculator.py">здесь</a> </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
